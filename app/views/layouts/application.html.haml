@@ -1,0 +1,20 @@
+!!!
+%html(ng-app='hypcom')
+  %head
+    %title Hypothetical Comics
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+
+  %body
+    .nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          %a.navbar-brand(href='/') Hypothetical Comics
+
+        %ul.navr.navbar-nav
+          %li
+            %a(href='/foo') All
+
+    .container
+      = yield

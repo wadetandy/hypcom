@@ -22,5 +22,9 @@ module Hypcomics
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.assets.paths << 'bower_components'
+
+    config.angular_templates.module_name = 'appTemplates'
   end
 end
