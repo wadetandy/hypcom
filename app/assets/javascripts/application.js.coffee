@@ -20,4 +20,4 @@
 # = require_self
 # = require_tree .
 
-angular.module('hypcom', ['ngResource', 'ui.router', 'appTemplates'])
+@app = angular.module('hypcom', ['ngResource', 'ui.router', 'appTemplates'])
