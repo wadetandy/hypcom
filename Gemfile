@@ -18,7 +18,7 @@ gem 'angular-rails-templates'
 
 gem 'haml'
 gem 'devise'
-# gem 'devise_token_auth'
+gem 'devise_token_auth'
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
